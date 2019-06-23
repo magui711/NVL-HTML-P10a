@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+
+	<h1>Reloj Inteligente Ace Pro </h1>
+	<h3>Formulario de satisfacción</h3>
+</head>
+<body>
+	<h4>Cuestionario</h4>
+	<form method="post" action="miservidor.php">
+		<div>
+	<label for="postal"><b>Código postal:</b></label></br>
+	<input id="postal" type="text">
+</div>
+<div></br>
+<label for="valoracion"><b>Valoración del producto:</b></label></br>
+<select id="valoracion">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option></br>
+</select>
+</div>
+<div></br>
+<label for="email"><b>Email:</b></label></br>
+<input id="email" type="text">
+</div>
+<div>
+	<label for="comentario positivo"><b>Aspectos positivos del producto:</b></label></br>
+	<textarea id="comentario positivo"></textarea>
+</div>
+<div>
+	<label for="comentario negativo"><b>Aspectos mejorables del producto:</b></label></br>
+	<textarea id="comentario negativo"></textarea>
+</div>
+<div>
+	<label for="caracteristicas"><b>Valore los siguientes aspectos:</b></label>
+	<ul>
+
+	<li><p><b>Diseño</b></li>
+	<input name="caracteristicas" type="checkbox" value="Excelente">Excelente
+	<input name="caracteristicas" type="checkbox" value="Bueno">Bueno
+	<input name="caracteristicas" type="checkbox" value="Regular">Regular
+	<input name="caracteristicas" type="checkbox" value="Pésimo">Pésimo
+</p>
+
+	<li><p><b>Batería</b></li>
+	<input name="caracteristicas" type="checkbox" value="Excelente">Excelente
+	<input name="caracteristicas" type="checkbox" value="Bueno">Bueno
+	<input name="caracteristicas" type="checkbox" value="Regular">Regular
+	<input name="caracteristicas" type="checkbox" value="Pésimo">Pésimo
+</p>
+
+	<li><p><b>Pantalla</b></li>
+	<input name="caracteristicas" type="checkbox" value="Excelente">Excelente
+	<input name="caracteristicas" type="checkbox" value="Bueno">Bueno
+	<input name="caracteristicas" type="checkbox" value="Regular">Regular
+	<input name="caracteristicas" type="checkbox" value="Pésimo">Pésimo
+</p>
+
+	<li><p><b>Memoria</b></li>
+	<input name="caracteristicas" type="checkbox" value="Excelente">Excelente
+	<input name="caracteristicas" type="checkbox" value="Bueno">Bueno
+	<input name="caracteristicas" type="checkbox" value="Regular">Regular
+	<input name="caracteristicas" type="checkbox" value="Pésimo">Pésimo
+</p>
+
+	<li><p><b>Resolución</b></li>
+	<input name="caracteristicas" type="checkbox" value="Excelente">Excelente
+	<input name="caracteristicas" type="checkbox" value="Bueno">Bueno
+	<input name="caracteristicas" type="checkbox" value="Regular">Regular
+	<input name="caracteristicas" type="checkbox" value="Pésimo">Pésimo
+</p>
+</ul>
+</div>
+
+<div>
+	<label for="caracteristicas"><b>Valore estos aspectos:</b></label>
+	</br>
+	<ul>
+	<li><p><b>Diseño</b></p></li>
+	<select id="caracteristicas">
+	<option value="Excelente">Excelente</option>
+	<option value="Bueno">Bueno</option>
+	<option value="Regular">Regular</option>
+	<option value="Pésimo">Pésimo</option></select>
+
+	<li><p><b>Batería</b></p></li>
+	<select id="caracteristicas">
+	<option value="Excelente">Excelente</option>
+	<option value="Bueno">Bueno</option>
+	<option value="Regular">Regular</option>
+	<option value="Pésimo">Pésimo</option></select>
+
+	<li><p><b>Pantalla</b></p></li>
+	<select id="caracteristicas">
+	<option value="Excelente">Excelente</option>
+	<option value="Bueno">Bueno</option>
+	<option value="Regular">Regular</option>
+	<option value="Pésimo">Pésimo</option></select>
+
+	<li><p><b>Memoria</b></li></p>
+	<select id="caracteristicas">
+	<option value="Excelente">Excelente</option>
+	<option value="Bueno">Bueno</option>
+	<option value="Regular">Regular</option>
+	<option value="Pésimo">Pésimo</option></select>
+
+	
+	<li><p><b>Resolución</b></li></p>
+	<select id="caracteristicas">
+	<option value="Excelente">Excelente</option>
+	<option value="Bueno">Bueno</option>
+	<option value="Regular">Regular</option>
+	<option value="Pésimo">Pésimo</option></select>
+</ul>
+</div>
+
+	<input type ="submit" value="Enviar">
+
+</form>
+</body>
+</html>
